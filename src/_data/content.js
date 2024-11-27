@@ -1,54 +1,146 @@
-const header = 'Welcome to this wonderful example timeline.';
-const footer = 'A footer goes here.';
+const header = 'Trump-2 Is Going Just Great!.';
+const footer = 'A personal, and certainly not exhaustive, recording of the fall of democracy in the US.';
 const entries = [
+
+
   {
-    id: 'cat',
-    categories: ['cat'],
+    id: '6',
+    categories: ['behavior'],
     color: 'green',
-    faicon: 'cat',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
+    faicon: 'i< class="fas fa-balance-scale-right"></i>',
+    datetime: '2024-11-27 05:00',
+    title: 'Is this how we want to run our government?',
     image: {
-      link: 'http://placekitten.com',
-      src: 'http://placekitten.com/200/300',
-      alt: 'A placeholder kitten',
-      caption: 'Kitten!',
+      link: 'https://d.newsweek.com/en/full/1783287/elon-musk-dave-portnoy-bitcoin-tesla-twitter.webp?w=790&f=de6da6dc3b13c35970929a3d595973a5',
+      src: 'https://d.newsweek.com/en/full/1783287/elon-musk-dave-portnoy-bitcoin-tesla-twitter.webp?w=790&f=de6da6dc3b13c35970929a3d595973a5',
+      alt: 'Elon Musk',
+      caption: 'Elon Musk',
     },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
+    body: 'Elon Musk has a well-documented history of "management-by-terror" when is does not get what he wants.Now he wants to share the terror by doxing people in government that he wants to intimidate and encouraging his followers to harass and threaten them. For doing nothing more than the jobs they were hired to do. Such arbitrary capricous behavior is not likely to inspire good performance.',
     links: [
       {
-        href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'Cat',
+        href: 'https://www.cnn.com/2024/11/27/business/elon-musk-government-employees-targets/index.html?iid=cnn_buildContentRecirc_end_recirc',
+        linkText: ' Elon Musk publicized the names of government employees he wants to cut. It’s terrifying federal workers - CNN',
+      },
+    ],
+  },    
+
+  {
+    id: '5',
+    categories: ['appointments'],
+    color: 'red',
+    faicon: 'i< class="fas fa-balance-scale-right"></i>',
+    datetime: '2024-11-27 05:00',
+    title: 'Head of the National Institutes of Health',
+    image: {
+      link: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QUUFN27A6XQS6RJ5DXXQ5TXXXE.jpg&w=916',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QUUFN27A6XQS6RJ5DXXQ5TXXXE.jpg&w=916',
+      alt: 'Jay Bhattacharya',
+      caption: 'Jay Bhattacharya',
+    },
+    body: 'Bhattacharya is primarily an economist who thinks that peoples lives are expendable. He thought it was more important for business to get going again during the COVID-19 pandemic than to protect those who were most vulnerable.',
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/health/2024/11/16/nih-director-jay-bhattacharya-covid-great-barrington-declaration/',
+        linkText: 'Jay Bhattacharya, an NIH critic, emerges as a top candidate to lead the agency - Washington Post',
+      },
+    ],
+  },  
+ 
+  {
+    id: '4',
+    categories: ['appointments'],
+    color: 'red',
+    faicon: 'i< class="fas fa-balance-scale-right"></i>',
+    datetime: '2024-11-27 05:00',
+    title: 'Attorney General (pick #2)',
+    image: {
+      link: 'https://d.newsweek.com/en/full/2527268/floridas-former-attorney-general-pam-bondi-speaks.jpg',
+      src: 'https://d.newsweek.com/en/full/2527268/floridas-former-attorney-general-pam-bondi-speaks.jpg',
+      alt: 'Pam Bondi',
+      caption: 'Pam Bondi',
+    },
+    body: 'Bondi has pledged to "prosecute the prosecutors" Which apparently means punishing prosecutors for carrying out the law and convicting Trump. Not a good look for a "nation of laws, not people".',
+    links: [
+      {
+        href: 'https://www.msn.com/en-us/news/politics/trumps-hatchet-woman-pam-bondi-is-plotting-revenge-on-the-department-of-justice/ar-AA1uR9a2',
+        linkText: 'Trumps hatchet woman: Pam Bondi is plotting revenge on the Department of Justice - MSN.com',
       },
     ],
   },
-  {
-    id: 'dog',
-    categories: ['dog'],
-    color: 'green',
-    faicon: 'dog',
-    datetime: '2021-05-01 23:55',
-    title: 'Puppies are great too',
+ 
+ {
+    id: '3',
+    categories: ['appointments'],
+    color: 'red',
+    faicon: 'i< class="fas fa-balance-scale-right"></i>',
+    datetime: '2024-11-27 05:00',
+    title: 'Director of National Intelligence',
     image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
+      link: 'https://d.newsweek.com/en/full/2520984/tulsi-gabbard-speaking-trump-rally.jpg',
+      src: 'https://d.newsweek.com/en/full/2520984/tulsi-gabbard-speaking-trump-rally.jpg',
+      alt: 'Tulsi Gabbard,',
+      caption: 'Tulsi Gabbard',
     },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
+    body: 'Gabbard has espoused  a false, decade-old Russian conspiracy theory that Washington is secretly funding the development of biological weapons in former Soviet countries, which has been repeatedly debunked by the U.S. and international organizations. That was after she accused the US and NATO of provoking Russia into attacking Ukraine.',
     links: [
       {
-        href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
+        href: 'https://www.washingtonpost.com/world/2024/11/14/tulsi-gabbard-russia-director-national-intelligence-trump/',
+        linkText: 'Tulsi Gabbard’s past comments on Russia cloud her nomination by Trump - Washington Post',
       },
     ],
   },
+  
+  {
+    id: '2',
+    categories: ['appointments'],
+    color: 'red',
+    faicon: 'i< class="fas fa-balance-scale-right"></i>',
+    datetime: '2024-11-17 05:00',
+    title: 'Secretary of Health and Human Services',
+    image: {
+      link: 'https://api.time.com/wp-content/uploads/2024/11/rfk-jr-vaccines.jpg',
+      src: 'https://api.time.com/wp-content/uploads/2024/11/rfk-jr-vaccines.jpg',
+      alt: 'RFK, Jr,',
+      caption: 'RFK, Jr.',
+    },
+    body: 'A guy who has no idea of what science actually involves, and actively promotes anti-scientific views should be running our governments health (and health research) programs?',
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/health/2024/11/15/rfk-jr-views-conspiracies-false-claims/',
+        linkText: '10 RFK Jr. conspiracy theories and false claims, in his own words - Washington Post',
+      },
+    ],
+  },
+ 
+  {
+    id: '1',
+    categories: ['appointments'],
+    color: 'red',
+    faicon: '<i class="fas fa-balance-scale-right"></i>',
+    datetime: '2024-11-17 05:00',
+    title: 'Attorney General?',
+    image: {
+      link: 'https://d.newsweek.com/en/full/2520738/matt-gaetz.jpg',
+      src: 'https://d.newsweek.com/en/full/2520738/matt-gaetz.jpg',
+      alt: 'Gaetz',
+      caption: 'Matt Gaetz',
+    },
+    body: "Nominated for Attorney General of the US, his past ethics are so questionable that the House Majority leader doesn't want to release the House Ethics Committee report on him.",
+    links: [
+      {
+        href: 'https://www.msn.com/en-us/news/politics/mike-johnson-says-matt-gaetz-ethics-report-should-not-come-out-as-some-gop-senators-push-to-see-it/ar-AA1uf3YU',
+        linkText: 'Mike Johnson says Matt Gaetz ethics report should not come out as some GOP senators push to see it - MSNBC',
+      },
+    ],
+  },
+ 
 ];
 
 // Page details
-const pageTitle = 'Static timeline generator'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
-const pageAuthor = 'Jane Doe'; // Your name
+const pageTitle = 'Trump-2 is going just great!'; // The title of the page that shows in the browser tab
+const pageDescription = 'Trump-2, highlights'; // The description of the page for search engines
+const pageAuthor = 'J Michelson'; // Your name
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
 const getFilters = (entries) => {
