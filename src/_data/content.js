@@ -1,11 +1,56 @@
-const header = 'Trump-2 Is Going Just Great!.';
+const header = 'Trump 2.0 Is Going Just Great!.                                                         A lot of people voted for him because they liked some of what he said. Almost universally, they have consciously chosen the say, or think, that he "will not really do all those crazy things he said he would do" Whether that is willful ignorance, or simply from not understanding how a bully acts, is not clear. What is clear is that they are wrong....';
 const footer = 'A personal, and certainly not exhaustive, recording of the fall of democracy in the US.';
 const entries = [
 
 
+ //  {
+//     id: '6',
+//     categories: ['behavior'],
+//     color: 'green',
+//     faicon: 'i< class="fas fa-balance-scale-right"></i>',
+//     datetime: '2024-11-27 05:00',
+//     title: 'Is this how we want to run our government?',
+//     image: {
+//       link: 'https://d.newsweek.com/en/full/1783287/elon-musk-dave-portnoy-bitcoin-tesla-twitter.webp?w=790&f=de6da6dc3b13c35970929a3d595973a5',
+//       src: 'https://d.newsweek.com/en/full/1783287/elon-musk-dave-portnoy-bitcoin-tesla-twitter.webp?w=790&f=de6da6dc3b13c35970929a3d595973a5',
+//       alt: 'Elon Musk',
+//       caption: 'Elon Musk',
+//     },
+//     body: 'Elon Musk has a well-documented history of "management-by-terror" when is does not get what he wants.Now he wants to share the terror by doxing people in government that he wants to intimidate and encouraging his followers to harass and threaten them. For doing nothing more than the jobs they were hired to do. Such arbitrary capricous behavior is not likely to inspire good performance.',
+//     links: [
+//       {
+//         href: 'https://www.cnn.com/2024/11/27/business/elon-musk-government-employees-targets/index.html?iid=cnn_buildContentRecirc_end_recirc',
+//         linkText: ' Elon Musk publicized the names of government employees he wants to cut. It’s terrifying federal workers - CNN',
+//       },
+//     ],
+//   },    
+
+
+ {
+    id: '7',
+    categories: ['Nation of laws'],
+    color: 'green',
+    faicon: 'i< class="fas fa-balance-scale-right"></i>',
+    datetime: '2024-11-29 05:00',
+    title: 'Has anyone around here heard of the 1st Amendment?',
+    image: {
+      link: 'https://d.newsweek.com/en/full/2523108/brendan-carr-dc.webp?w=790&f=729405b5e5e7f446cac97a2654989df1',
+      src: 'https://d.newsweek.com/en/full/2523108/brendan-carr-dc.webp?w=790&f=729405b5e5e7f446cac97a2654989df1',
+      alt: 'Brendan Carr',
+      caption: 'Brendan Carr',
+    },
+    body: 'In the run-up to the election, Brendan Carr threatened to "pull NBCs license" because Kamala Harris had a cameo appearance in a SNL comedy sketch. He said that itr violated the "equal time rule", blissfully ignoring the fact that NBC gave free time to Trump before a NASCAR race to present an election ad. He has also sent threatening letters to all the major social media platforms accusing them of "censorship" because they utilized a fact-checking service to review statements made by ALL of the candidates. His interpretation of "censorship" flies in the face of the accepted law on the freedom to express ones opinion. His attack on the expression of opinions that he does not agree with is antithetical to the underpinnings of our government and democracy. Even though he is wrong about the law (even the Federalist Society says he is wrong), his threats are an attempt to coerce these platforms to self-censor in an attempt to avoid his wrath (in the form of litigation as a form of harassment).',
+    links: [
+      {
+        href: 'https://www.techdirt.com/2024/11/27/brendan-carr-makes-it-clear-that-hes-eager-to-be-americas-top-censor/',
+        linkText: 'Brendan Carr Makes It Clear That He’s Eager To Be America’s Top Censor - TechDirt.com',
+      },
+    ],
+  },    
+
   {
     id: '6',
-    categories: ['behavior'],
+    categories: ['Behavior','Nation of laws'],
     color: 'green',
     faicon: 'i< class="fas fa-balance-scale-right"></i>',
     datetime: '2024-11-27 05:00',
